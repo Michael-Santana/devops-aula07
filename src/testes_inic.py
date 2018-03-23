@@ -23,3 +23,4 @@ if erroInicialiar:
 else:
   sys.exit(0)
                       
+ 
