@@ -33,4 +33,4 @@ while True:
             jogando = False
             break
     jogador = "X" if jogador == "O" else "O"
-    jogadas +=1 
+    jogadas +=1
