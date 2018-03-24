@@ -1,13 +1,13 @@
-import jogovelha
+import tabuleiro 
 import sys
 
 erro = False
 lin = 1
 col = 1
 jogador = 'X'
-jogovelha.inicializar()
-jogovelha.jogar(jogador, lin, col)
-jogo = jogovelha.tabuleiro()
+tabuleiro.inicializar()
+tabuleiro.jogar(jogador, lin, col)
+jogo = tabuleiro.tabuleiro()
 
 if len(jogo) != 3:
   erro = True
