@@ -1,10 +1,10 @@
-import jogovelha
+import tabuleiro
 import sys
 
 erroInicializar = False
 
-jogovelha.inicializar()
-jogo = jogovelha.tabuleiro()
+tabuleiro.inicializar()
+jogo = tabuleiro.tabuleiro()
 
 if len(jogo) != 3:
   erroInicializar = True
