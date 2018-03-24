@@ -1,4 +1,4 @@
-import tabuleiro
+import tabuleiro 
 import sys
 
 erro = False
